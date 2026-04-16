@@ -69,20 +69,14 @@ python main.py
 Update API details in:
 config.py
 
-Example:
-```python
-BASE_URL = "https://api.example.com/data"
-PARAMS = {
-    "page": 1,
-    "limit": 50
-}
-
 ---
 
 ## ❗ Error Handling
 - Handles failed API calls  
 - Logs errors in `logs/` directory  
 - Skips invalid or empty responses  
+
+---
 
 ## 📈 Future Enhancements
 - Add scheduling (Cron / Airflow)  
